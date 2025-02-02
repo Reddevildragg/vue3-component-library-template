@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
       },
       resolve: {
         alias: {
-          '~': resolve(__dirname, 'src', 'myComponentLibrary'),
+          '@': resolve(__dirname, 'src', 'myComponentLibrary'),
         },
       },
       build: {
@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => {
       },
       resolve: {
         alias: {
-          '~': resolve(__dirname, 'src', 'myComponentLibrary'),
+          '@': resolve(__dirname, 'src', 'myComponentLibrary'),
         },
       },
       build: {
